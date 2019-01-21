@@ -28,7 +28,6 @@ class Task extends Model
     {
         return $this->belongsTo('App\Company');
     }
-
     
     public function users()
     {
